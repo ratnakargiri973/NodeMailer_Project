@@ -11,7 +11,7 @@ function Mail() {
     function handleSubmit(e) {
         e.preventDefault();
         
-        axios.post('http://localhost:6969/user', {
+        axios.post('https://nodemailer-project-d93o.onrender.com/user', {
             name, 
             email, 
             message
